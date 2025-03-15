@@ -55,7 +55,7 @@ class UnknownError(Exception):
 class SolArkCloud:
     """Sol-Ark Cloud API client."""
 
-    def __init__(self, base_url: str = "https://www.solarkcloud.com"):
+    def __init__(self, base_url: str = "https://api.solarkcloud.com"):
         self.base_url = base_url
         self.access_token = None
         self.refresh_token = None
